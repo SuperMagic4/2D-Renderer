@@ -1,7 +1,5 @@
 package com.waffler.engine;
 
-import java.awt.event.KeyEvent;
-
 public class GameContainer implements Runnable{
 	
 	private Thread thread;
@@ -14,7 +12,7 @@ public class GameContainer implements Runnable{
 	private final double UPDATE_CAP = 1.0 / 60.0;
 	private int width = 320, height = 240;
 	private float scale = 3f;
-	private String title = "2D Engine | Verison: 1.0 Beta";
+	private String title = "2D Engine | Verison: 1.0";
 	
 	public GameContainer(AbstractGame game) {
 		this.game = game;
